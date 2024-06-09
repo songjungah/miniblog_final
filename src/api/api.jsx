@@ -53,7 +53,7 @@ export async function uploadImages(file) {
   }
 }
 
-//글 업로드 페이지에서 주제,, 내용 데이터를 firebase에 업로드하는 api
+//글 업로드 페이지에서 주제,, 내용 데이터를 firebase에 업로드하는 api!  !!!!!
 export async function uploadPostData(post, imgUrl) {
   try {
     const id = uuid();
